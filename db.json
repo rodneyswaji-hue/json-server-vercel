@@ -1,9 +1,157 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "cars": [
+    {
+      "id": 1,
+      "brand": "Toyota",
+      "model": "Corolla X",
+      "year": 2020,
+      "price": 98060000,
+      "fuel_type": "Petrol",
+      "condition": "Used",
+      "color": "Silver",
+      "image": "https://images.unsplash.com/photo-1605559424843-8f94b2d4a6c0",
+     "seller": {
+        "id": 1,
+        "name": "omar edin",
+        "phone": "+254799009037",
+        "email": "Omaredin740@gmail.com",
+        "location": "Nairobi, Kenya"
+      }
+    },
+    {
+      "id": 2,
+      "brand": "Honda",
+      "model": "Civic EX",
+      "year": 2019,
+      "price": 98550000,
+      "fuel_type": "Petrol",
+      "condition": "Used",
+      "color": "Blue",
+      "image": "https://images.unsplash.com/photo-1583121274602-3e2828fef1b1",
+      
+      "seller": {
+        "id": 1,
+        "name": "omar edin",
+        "phone": "+254799009037",
+        "email": "Omaredin740@gmail.com",
+        "location": "Nairobi, Kenya"
+      }
+      
+    },
+    {
+      "id": 3,
+      "brand": "Nissan",
+      "model": "Note",
+      "year": 2018,
+      "price": 8900,
+      "fuel_type": "Hybrid",
+      "condition": "Used",
+      "color": "Red",
+      "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+      "seller": {
+        "id": 1,
+        "name": "omar edin",
+        "phone": "+254799009037",
+        "email": "Omaredin740@gmail.com",
+        "location": "Nairobi, Kenya"
+      }
+      
+    },
+    {
+      "id": 4,
+      "brand": "Mazda",
+      "model": "CX-5",
+      "year": 2021,
+      "price": 32000,
+      "fuel_type": "Diesel",
+      "condition": "New",
+      "color": "White",
+      "image": "https://images.unsplash.com/photo-1627454821261-42cdd1a5a0c3",
+      "seller": {
+        "id": 1,
+        "name": "omar edin",
+        "phone": "+254799009037",
+        "email": "Omaredin740@gmail.com",
+        "location": "Nairobi, Kenya"
+      }
+      
+    },
+    {
+      "id": 5,
+      "brand": "Subaru",
+      "model": "Forester XT",
+      "year": 2017,
+      "price": 320000,
+      "fuel_type": "Petrol Turbo",
+      "condition": "Used",
+      "color": "Dark Green",
+      "image": "https://images.unsplash.com/photo-1610900646233-f7b12b7b4bb1",
+      "seller": {
+        "id": 1,
+        "name": "omar edin",
+        "phone": "+254799009037",
+        "email": "Omaredin740@gmail.com",
+        "location": "Nairobi, Kenya"
+      }
+      
+    },
+    {
+      "id": 6,
+      "brand": "Mercedes-Benz",
+      "model": "C200",
+      "year": 2022,
+      "price": 45000,
+      "fuel_type": "Petrol",
+      "condition": "New",
+      "color": "Black",
+      "image": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c",
+      "seller": {
+        "id": 1,
+        "name": "omar edin",
+        "phone": "+254799009037",
+        "email": "Omaredin740@gmail.com",
+        "location": "Nairobi, Kenya"
+      }
+      
+    },
+    {
+      "id": 7,
+      "brand": "Volkswagen",
+      "model": "Golf GTI",
+      "year": 2020,
+      "price": 53000,
+      "fuel_type": "Petrol",
+      "condition": "Used",
+      "color": "Gray",
+      "image": "https://images.unsplash.com/photo-1615572766886-4cecee1f0d38",
+      "seller": {
+        "id": 1,
+        "name": "omar edin",
+        "phone": "+254799009037",
+        "email": "Omaredin740@gmail.com",
+        "location": "Nairobi, Kenya"
+      }
+      
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "chats": [
+    {
+      "id": 1,
+      "carId": 3,
+      "buyer": "ali adan",
+      "sellerId": 3,
+      "messages": [
+        {
+          "from": "buyer",
+          "text": "Hi, is the Nissan Note still available?",
+          "timestamp": "2025-10-22T10:30:00Z"
+        },
+        {
+          "from": "seller",
+          "text": "Yes, it’s still available!",
+          "timestamp": "2025-10-22T10:32:00Z"
+        }
+      ]
+    }
+  ]
 }
