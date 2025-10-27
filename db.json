@@ -1,157 +1,197 @@
 {
   "cars": [
     {
-      "id": 1,
-      "brand": "Toyota",
-      "model": "Corolla X",
-      "year": 2020,
-      "price": 98060000,
-      "fuel_type": "Petrol",
-      "condition": "Used",
-      "color": "Silver",
-      "image": "https://images.unsplash.com/photo-1605559424843-8f94b2d4a6c0",
-     "seller": {
-        "id": 1,
-        "name": "omar edin",
-        "phone": "+254799009037",
-        "email": "Omaredin740@gmail.com",
-        "location": "Nairobi, Kenya"
-      }
-    },
-    {
-      "id": 2,
-      "brand": "Honda",
-      "model": "Civic EX",
-      "year": 2019,
-      "price": 98550000,
-      "fuel_type": "Petrol",
-      "condition": "Used",
-      "color": "Blue",
-      "image": "https://images.unsplash.com/photo-1583121274602-3e2828fef1b1",
-      
-      "seller": {
-        "id": 1,
-        "name": "omar edin",
-        "phone": "+254799009037",
-        "email": "Omaredin740@gmail.com",
-        "location": "Nairobi, Kenya"
-      }
-      
-    },
-    {
-      "id": 3,
-      "brand": "Nissan",
-      "model": "Note",
-      "year": 2018,
-      "price": 8900,
-      "fuel_type": "Hybrid",
-      "condition": "Used",
-      "color": "Red",
-      "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
-      "seller": {
-        "id": 1,
-        "name": "omar edin",
-        "phone": "+254799009037",
-        "email": "Omaredin740@gmail.com",
-        "location": "Nairobi, Kenya"
-      }
-      
-    },
-    {
-      "id": 4,
-      "brand": "Mazda",
-      "model": "CX-5",
-      "year": 2021,
-      "price": 32000,
-      "fuel_type": "Diesel",
+      "id": "1",
+      "brand": "Mercedes-AMG",
+      "model": "GT S",
+      "price": 120000,
+      "kes_price": 15520800,
+      "monthly": 384000,
+      "year": 2023,
       "condition": "New",
-      "color": "White",
-      "image": "https://images.unsplash.com/photo-1627454821261-42cdd1a5a0c3",
+      "description": "High-performance sports car with V8 engine.",
+      "image_url": "https://th.bing.com/th/id/OIP.hqH2otK1uUF4wwhWILYtDQHaEK?w=319&h=180&c=7&r=0&o=7&cb=12&dpr=1.7&rm=3",
+      "source": "https://www.gettyimages.com/photos/mercedes-amg-gt-s",
+      "engine": "4.0 L V8 Biturbo",
+      "mileage": "— (provide actual km)",
+      "transmission": "7-Speed Dual-Clutch Automatic",
+      "fuel": "Petrol",
       "seller": {
-        "id": 1,
-        "name": "omar edin",
-        "phone": "+254799009037",
-        "email": "Omaredin740@gmail.com",
-        "location": "Nairobi, Kenya"
+        "name": "CarXpress Limited",
+        "contact": "0712345678",
+        "location": "Nairobi City, Kiambu Road"
       }
-      
     },
     {
-      "id": 5,
-      "brand": "Subaru",
-      "model": "Forester XT",
-      "year": 2017,
-      "price": 320000,
-      "fuel_type": "Petrol Turbo",
-      "condition": "Used",
-      "color": "Dark Green",
-      "image": "https://images.unsplash.com/photo-1610900646233-f7b12b7b4bb1",
-      "seller": {
-        "id": 1,
-        "name": "omar edin",
-        "phone": "+254799009037",
-        "email": "Omaredin740@gmail.com",
-        "location": "Nairobi, Kenya"
-      }
-      
-    },
-    {
-      "id": 6,
-      "brand": "Mercedes-Benz",
-      "model": "C200",
+      "id": "2",
+      "brand": "Mercedes-AMG",
+      "model": "GT R",
+      "price": 157000,
+      "kes_price": 20304380,
+      "monthly": 503000,
       "year": 2022,
-      "price": 45000,
-      "fuel_type": "Petrol",
-      "condition": "New",
-      "color": "Black",
-      "image": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c",
+      "condition": "Used",
+      "description": "Track-focused variant with enhanced aerodynamics.",
+      "image_url": "https://th.bing.com/th/id/OIP.baNzSJF0wS3cCpJMV3kWZwHaEK?w=275&h=180&c=7&r=0&o=7&cb=12&dpr=1.1&pid=1.7&rm=3",
+      "source": "https://th.bing.com/th/id/OIP.baNzSJF0wS3cCpJMV3kWZwHaEK?w=275&h=180&c=7&r=0&o=7&cb=12&dpr=1.1&pid=1.7&rm=3",
+      "engine": "4.0 L V8 Biturbo",
+      "mileage": "— (provide actual km)",
+      "transmission": "7-Speed Dual-Clutch Automatic",
+      "fuel": "Petrol",
       "seller": {
-        "id": 1,
-        "name": "omar edin",
-        "phone": "+254799009037",
-        "email": "Omaredin740@gmail.com",
-        "location": "Nairobi, Kenya"
+        "name": "CarXpress Limited",
+        "contact": "0723456789",
+        "location": "Nairobi City, Ridgeways, Kiambu Road"
       }
-      
     },
     {
-      "id": 7,
-      "brand": "Volkswagen",
-      "model": "Golf GTI",
-      "year": 2020,
-      "price": 53000,
-      "fuel_type": "Petrol",
+      "id": "3",
+      "brand": "Mercedes-AMG",
+      "model": "SLS",
+      "price": 200000,
+      "year": 2015,
       "condition": "Used",
-      "color": "Gray",
-      "image": "https://images.unsplash.com/photo-1615572766886-4cecee1f0d38",
+      "description": "Iconic gull-wing doors and powerful V8.",
+      "image_url": "data:image/webp;base64,UklGRl4aAABXRUJQVlA4IFIaAACQgACdASoYAcYAPp1Em0slo7IvJzYsgkATiWltvR4U+8g8db2mO1mL1+/iewHh3+k8EeyT/dd+Pyj1Efav+r9N6Mjyt++9Bf25+9/9D1q/wfNj+v9QDvwfCu9D9gP9G+sP/g//X/Z+kL6p/93uLfsP6a3sY/cP2Y/14PpCHFdQ6SbPbZCECripbAtDTSLYdSfJznEhH7eszv8czcHd0JThBon6zMyrBSmkV4YkQ2QCsHUBeBqG77BI1T0IkguMxK3RoS9uIFBHBBMP6NnqDr4YrvJox4jTA2HRPI76/zGJ68tUGt6gAT/SAgZ2DZNcYhLbWSWJi9sHaWLN8HZF1HAwMF8jk6HVmmNgGp8k24oAclgSDenW5bMfoeROhx8BfVF05QeOuPPn8iVjzhDgb6DlwqNMbi3QbzYwBBIQDmQQno49gM7BLblo0OCrkrc88Rgdpy4LraxLoX8h8MBp1HxuPXE1DBZlfwXZGFZMXbGjKqMJpgzYcy0RlfaOE2i1tGUzhLvC2jmPnZ6OLcUbP9HAsYii3tDfaUNDMlbRiCUvNiCuqZtNmfqfrjwTsfs0FjAMzqK1VR+dGsMU4mIWTSaBUntKWvfj+GzB709dSv+6LW1OysdwDl5noYfz+aGtrM3tqDUGd/fcVcfvP4GBBaXn8xGzxL86PR2xM13RkwQU0D0m+jcU5TCvJNLkeQ8//KTxlpQL76FmKXyzLM763wbMTlfqZ002QcHC92OtT0RuS+MdZEyDh5g4h+sNOyKKC/ROezxl+qhEzgpl9j5m8/zx0yE4wbJ3vxXZ3O3FX1xHTgFgkUjAXW20KTuW8W9ViKbTvyuxzGM+HgTiGgWSoT4Ek2b+7WVcbOLoG6bvjOdsFnm/C/ui6zyqWdM+Vdqs0bB4rzJIdNF7FvYwgFTo8ewqUKhYWLLfMyFiHZWctoKJA8wO6ln1fM6tdbd2qTKn/YCbp8jabkrPTEQMcanwjMOQuMFom4mpyH2t4xe67dCEsg2X4yN91fn94sV4t2ruA5R57tZ58uqEgaUnD+V2iQNWkp+5zs6mJyVlF3svEAC6YCnYLpAbI+V/YcBRqzcVQ5CSpg1n7uNO8yp6+97Zs/Tz2uT5mBfTSBhbED5kYWtuPgEfr59ygbeccpyacVs/ui9YkZbfGyY1PEEY00hMnfqhSEZt2Qdds4ArfbU+PIlyZuuAezXf3yyYZ//GNIH5TBtSm+4yY/P4WnclvSPXVgpWYysZbYn2Yjv+7w3nxRBn2C2P/nj/wy5LDoINyXVRCeg3lDenCL4hkeuBcvwSsAba/qDJK7Tl6gdddnahbVNX33RPIJ/RTkZWHsKr4vQbdVgATFnHE5PwQCORtXRJ4b6s5GaR2bmD6CxRMBnoAAD++iX/1Ovg3aHHEYRWsXmQV75QUMFkGhIeiYtJaH0KA/p7+/04gyy0+i28P7qBVzJwTIigy7vh4TVj6/rPCvxq6iVHzMY17hyplIHkmMW8Inn8/NZYTfemocCoVbKTXAewJ2CfR/FTCP5VByVa/vdpBpHs0c4pvCGsfuY+IUu7GDl8p3naG/u7ehKBPN7Sm/JhoAdHqxiJ+61k/GzkQcbD1HK1OxfJSGay/YcvrV5vznOqVvGdn3O7un2yf4bQNw/vu7i8R9vl4huZE+A/De6JNdn9wNI4vmsKMOzT/rml3hownetErqbBDmrF84+27ZQVMq3Nd/vYt0+O3d0coq8xHSZW+SkdTz8PQnz/X0xtDiEjguxC/QP6LHBrhkxd06j/xx2vngKWkk31qj00m5chOMxZs20vBMqNSD2MsHH9y5Z7hewF3QG6qornRLa3fr6CvKK9OcGovyBTabBkVnPLHKI9UGZ9nlj96bvMLjGDYpKzTBsGyRzpi5ieEOL6HlutVFjeCsrBMXSNaLAFOK1Tjs2v/T2VvAnSylRcJ4H2mKsZMgRzVtel8MEzbPkFiNylsA4spuhdx4LFxU/VWg6dp+j/hhfyIl1v4PaiVUYAZ3VVAcMRBKmdtSVnPmNB/siibiDIosmuA2/aCA+fGgZ5PepHAcXLI0BoLg6RpFMfrxlx4cPQsznPf3B6khLwIbCIUpYdJlaYsuoF5vR7qUUekMAxa0mftpB3T9DlUTpop0RNnhj72JYPwYKFb74EHGz3lE9dNpQzvjU5o16OOt1IM3OBdqpT89QjyoNe7pplIF7cSltf2s5Y+qRBuafFFiHg5tLn+jNstAUnMkJvqmPTBRZ7w724v8jynwfPTG3/ZiPLDi+jM2n/640+EthygCVH7+mel9uBHcBxLg0cNQhuv0wUccO4XZLtuhL4M0cRlBPlzy1rZftjxxKWKn+hU+jR7bVfLAPNfwS48JzhskG2OX/hRKgg7Bvu2CyC7J3yE5vx48QZNPGwQB94L4GueUJ1elHreRNlbRMLywYsbN8el1Y1mK+f+v3ISTIfbILA3iV8K7sHpZiXS1isQ4aGQ5CNqiE5i8bMEfFNTVOtqPCZJcoEsKpCX8lhc0T0fOsXR8jj2EYZ2nWKs7O1AndDzzlU1tPtpUDclKMV+vKS8O17bv//6k6TZ/HmeXBGwkcQQY94JDcfMZPyzYh9TCUP3JUTevkyfuvFvVJJp9ymhiJK0DdoJIpMt/JcCA/9OBUfjRqvzOJp/F/6K96tOKMllmSB5mXNao2Drf3kVD6zvZG7XBRYQVz1eI6VxfzgP7GQ9V5c+u96oDTD8wVD4q+FmWTgKbLf2/35Tbhuv5DMKzlEctwb0oeHVK6XVA4QXDvPzjWQsn+n4DigusujuJww2K59gHNnX9QeTpKUQA3PFioodppaTq4hkGNzvegtAgvYeOLwdlCV9r9/xtVcVzn0G26gutybqHdA3N5ZyvShYSheKGZuyiYjx6Q8oGAKgF+ym50BRthVuD+x2NaKCC0RBmFtFFwMAoo+Ze4Sp19yG+bA7IJT8hl9yY3RniQE5aGUVPHeZmVJguLSXKf/FwmYOlMMZb9WoLdhcKf9c7zS16WI0ocpnkzXJr9vMmuRG5Yv9D55nAb2cS6w/6sch/AYnx7FOLvMwYoBxIqGK5Nc+WPLT3tcFxN7vgqmlGxPrMheOWinF4xwZVjH5Ht+NIEDWywFwrY93DaH3eZSbvuKmYpMT9q3d2x6o15kf91seAXNI8hH+EyYdxuYHLGvUQhVXyZyWyScU+OLq+zWWlcVqQi2eO6KFMHs0WCKu0f8dUzDBipW8+Q3mUGUdgk7MYTNnWSB3o2NSbdGzn4NxBjbPXOt59Ckcs2ILF4vkP0o88u2K6WQRVIHMUtUVOggvhsmllhJMeSIaDQfBYrPHuF9GDYSne4Y+2i7qX6J6fsdJLgQqqOBe9fEY42fnvJbO4oG5d63WPb5/aNvwq8a11/7LgJ9i2h9F1xbyOZnm1fIvCHJ/l+Qsm2jQXDKzq+SbR7jvacc0Lr3YcVQG4mmqW+FAf5gdJFyucB9PiCqrPPNItWByOv8xNcyvGdwESwm2tPYLM4VJ7jDsCeMibq7PuuVdmqeIR1tfb7xqY6pXYonK5ZTfnJKthxYi88iuv+F36mXSh/FPyXs9mpcpLCJmJ1VvbPjqyIyAHVTcH7/v5NYt9L2gD39k2zNiJTECNX76GknkD/sKZ4dy9rONdJ6RYaSN++qWp3AbOqCZbhftVz4oFHSIS2jH4s+zEegfuIO6yRUnJOzqjUSoNBAhyIRZgNYywslUslrC6ilQHXbHp8/9Sa+KPtFsQOH2G+RHwkN8t+GGHUDJzA5k0mCFjw55ROX1KCdrpqZ//DC363U8y4mY+WuNhHWinX6W+294Xn2uwv3oyFT//Mo07BPHbf20Vqo0vO2XtOR9Jqh8DNM4SqZM6zVeiPXlraE/2qEwfmUxMdt1UPQhPsrmBvfVapQe9DADDi0drtbEQTfeDil+05gFm7+xRtARFjkT4ppZ4pQg/SncvLKIPGMZtQPEdjfHGrskteOCowU5L43qTUGefwyTyn+jAd/gry7n1BpKRIRtYux14oFwatPyRp+pvFBhGt2VO7FVn1mjEyULSk1G54SvHZ9K4B8bvynVXs4D8eBgBBN8gKbwamZerkfsZrvh3xi4n+pgLnSic9xr39X5mMa/llIwgCzcwdLt/QKq0AUU9tqpcIpZDwraZd1mofh9CFr5fcJfVZzFHS5o97tynIkKBNskGsQwubo8uzA0EJN9IHKyNYb4qL29Vms5cQIBShg5q/FqjXyWIQF2Z/mcZyemqYl+zynSsDI+0bC3uxuq58iYJApzHBSMprC84jdtBoD9akiPMzBCsmEOO7L/95WSp2C8IVn5m+fC+GfMjNviBzBaKutfSzWQ62/XuuQWj24B93kV3VyGvfRu10lOk8BwBlKIek6upu3Hub59LHOw2Aj7E87CsJrk6ao30heutL0TmYE82eMoFTZFMSGAXKatJAIPSv+JPe9TgxniTXpNlVJjVcQhrStwOMdlXsRiyhS40rUtfTaB3TdhGze3Tr6Qti5vBoHmlPFq/z4FcjxYUnZ3vx1dbw7HbFLPk0ExVXJ4lWTBGGnz5pz5noQ/sJAe6rRx637bi6p5XqbpXfY17MleMQF+Gj+LdG2aXSCKoH+kPP4ip/UVknytSsei4BMz5jcW3Ea/5ZXLJxvQ9adquo7LayrGIrVaoGSlfy4cqP4sjno3lQqX6Jpc//FjlLN6jHBNE6MigsMX53ytAkUqrB7sJBB+pl5ZTgfx3e2jYjA7q1ekgqEqSnvqMP5TGyPyxy+daKwqoxlP7+kYDDcr3ilmgQjmx9BaN7LsXIpHLRwPLoj6sqny9CwEZnT9sVne8PllW9nf49XiXu5T0ypbOhA9q13/Qg+TUlKpJO06UeARQRYp2h9NztWlhthbSbRHtQeNW895hCUX/thYdtAhIrcPYHVISfWxUSsJDWCrsqAb6IYR6yHwl4HaA/4lL8lF/jkWS5haNUzKHFP/UJzYlWaBJyq0HVTgp+gfpvkuoCYtXYBkMHai88HUy0Kfu5Xj6W8ji2M9yOa4oog+9/chJctwroyN7p9BUlC3PUY7wcFaei4fCXORWE9Fi09NkgoygsyocdehI48MgqkSqFNr/OG801hCEqqLUQm4ea//6T7qiUBLcfl8Nb6aQVgIHLyH4UK59yZN49ZCfQx19iEXAc7K8+pY+/+2Vrduar0qj95uMRM1YX6+BQAMg/k9gZv0J/mrENUL57Spr+dFgw7c+LMPb2WcyjDGBfpzgsTJPjbHP14nniP3bYXeL9u3WtZI3jYy8T1dZ0b7AnITJiUoC4nrp+GUjqA33R2Uzw0/RUUah/b53siTy/OpVhINW/6IsykT8x20q0Xy0ILagSpr8h5EZdI0inTAMBDbvZ3A5Bzb7f7jrGR5ePLSDcQNMIhyW+6l7e1LGKEjFM1Nw/FkOxOyWgIk2/SbgNGfXrzRSQQCpsydFxtjVrgqk5dXNYEohD3iqWFal1U/ng2gCammCInXG7sgs/LhZkGO5RqYf4hWwi6k5/3mlxqBeE7BeCcfB4tPFNZ+0T/VnEEQzKxE9LwGOh4+MAiFsKgG/S/7e7Uqfdzqtm6xYgJAioHgGM5uuFNSEyk/XJSXt06u6VLoSBJopArmrW3zocHKxYqUPy/4EtzlKUm/akZvK7nHQVsg+CHMgqwmSOqxnEn92CNCU+HNxY9+VGH6Ph9A4xK1BLbiA1Lva3pdgD1iOoji6KGOuFMPeVM08MH4HuOKd8SCZlnAdsDmTk12+mqBave4Ecjo1TdZjcj8uUjfzrbnVYhhQ6iqvXB+U/QDyHdtjjYwJoHmrkHUvr4TroxLduTa19iFo+cRio6gQjiG0N1EaKrVJMm3gijaU2ZKLsbgnKgESiT+Y9+eAcnE8u0llm8TW2Mw7fATQltT7U2YnzD3uP6Q3qPqTn+ObrW1mA6aZyfVpLAW5gPqXMAxbMlxU4tAWPoRMTIq0pBawdip3+mp6u8vQZujpQLc1DXsMDaUhH3+WFHKfWr/7aaf8b2C+it/tRuUobpzlDNE3HkGjlOake/w+XF2o0CWiVQGtEh8g0L9yb70G6fBlH/qY6HtgJdLlm1P0UPmIctnkbK58yQlw2uG0i1yxDuljMjtEh5WidYzdBmzHrsEVDnTdcBWBLbs5/HIyUe44cJsrdKXvqUrzChMAfy5QYKwf1a9MAVhJdRTTbzzoXB6423UQ+I+f5cwFI6KL9GEj7xYt/AKv5xdNXFt9TTNmDaPPLpqiHPdsvNM7/2ZIgeAFWWm9k4cHTIkDejfkqOQ9eNUB24bYHCTnfJQ/BgERElO61OUCpQp/+P0kooyxvjl2+xO9I1FduYth45oDQWG1+rvINlMSGLcNfQlOaDxcC8M6MES+ay+bvGvyQ9M0jpLszUfFRcABLaySohE+ecbEZc8nk+8WxpFcWjP2xq3UPD8iX/3B0zoTT/IRUTzXRqYm3pVCUlzZZPM0BHEMdL73jRfAm5ib2n+XlaNcBVPgpNCLorKJHpkSUnRevm+YVr5e3ZIqY+Fa8ATMWlQ6l81QSX0Nt62Fagebq6LbqC5QI/+yVl9lRRJRE8JI2iV8x2CVgVzvnkTGcyqTOn2ledjihlS59qyEAtNEXe8GAKnKCLgkouSYpTfOhJ3aUuvad4Rv7QQNwXGg/rkFeI9FMTmuJlM1dTengRgcvLLvc/wa4mx4x8aOVt5J1E47gLb9PuasFwyWOj5JTmlo71poMzeeJi84dRYLx1WpeOK+fIaRYXOOr7gUa18vjJo3e6AgoWiXiJFLdZn3D2Cb7F20Sia4UEgmlQdJs7qIwIwH+n9HAovGHSraT6hLAcEKuatqDPA1zDNclzeHC3wJ+H0kBvKl1/BLxusO4QrI+Znos4V0MiHHsp4lRvU6HugxV1kw01jKr1Wld8zTrixQ7cId4YXhyoZZvtlY1u5Wbo7xHi/U8Pw8HeEptluMQePlGf3OPkpSKNRrAE/3AYBEmOmyaP0EZzVMzRTGhVuz3T+7l5tFhPQtToZDRyKzt5UVUNV4vuTYYmEwJ2GdtbYDJuV2Y8N+/GiF0eflLceVb4uqzbC/OAS5jk4mKB0C3iUytMN4Koicozwqy1spNMVzYGMDkA/mwla3scJwoXEhLZ2OgDwiT9bJEz8rR7Hsb31csadzC966j41Zy5/tLAfSWirNM++ySyctu+IgTq0ZWmg92XMAA1FBU/5EmFfzYFWa6pzFA9nNpjYaFsRC26XBp0rI+2IVwoeXcDlEuOlsT7EYI83K0rjImcA/X0wLGP/lGqHtiqnM7LSOLBnUoBD8I5wvd0gpUhycrtXJkUCDYEdeorTry9SKu5ZN69JC90hxbDMZHekWuSekXGiYH7tYfQzxcNC5Th/MUnAZ+Lrs4uVwv4tRVSBBFLpwDN4wlc+JgkCe2rIlrHBEVpwb6ImgsP/WyYAvrnff79m+nEbnbwi3ZBJqfSin2blTpZAokzNDsdH6zviO9L2nFYtVl7sQK51e+R6PwJ7BJVd5T5d68p/yynL1gKr48adEByMBFYHWxzGEFSyqlnJIaoRgbzog7frTQZV2pY42Jq//kquaNySDEHWT3Hd1g0v4uxzSLjbbTuzhlOa9JrJMRnRzbc7xpcuCpi8f5BrSyPbWREISMhDcZQ6kAipEIByMsxnQG3moTyGxDJyMhv/OYrGCnWPPOnhYl5PxeUV9/k6a3LWRpvObS31ZQtrPVpHUNdG+MHzgtb7k3MB3Zyd4sePvxiRdOCpmLj/a/OQich2nVfixHTj8KBt1fLEh5Q1sjBuF6bX7lyWfWMY5laDW38DMgcB9vaxlfuy38ljTNvLIa9whaMNBP2GhF40wiZUomc4NEEIfNb2U+HFT9TOPOoQ7bRd7VW4SxxjU7/2wTDKHQCGIN6dI5ZQn+E7SnV4VryDC30hLuJMbeaWHghnve7OBaeU3K814WspOF4jWoYVamONpxfgu0H3+/GeUi78Lff9JtpHEmrdkPoE+abhnyj9BGVshCnItjA5yCfHs8CqXakKxBBNnWeW8vrIrqZ9slUEVDn/pCV0dqk5Ebbruy3svo4ea4tPq+TkpABn20GXh2UsAITo8H4ji7upB8gS3Sk9imps9FOp8T3joUU0nk7CdaDfldHVF9gthmR4Ra5+QtEIiWSUVPf7VFxLdjzSunop2NE+jAg7L0oVvVV7TUJXWLCjjbps8bFlZNBJ5vr1u6K6aYFE9OOm/YAZH85V+IQbqf1ylvasDVZ/4qVR1yGIFVgKmWLWo5OXXmA27DvrxvoThceZPitD55FYauuqC2zqj64ZhulMONQOwvd8QvJ79diCs76yvCpB7vaSo+C9EPR/pbsyVLZ171A5h7aakyLoB2LUDrliMp0XUy1nPaDjsSD8NTkMWRnJyqA64AYFnh1TFp2cdDStBAEXQGMYISxjRwsL5fRejONgwx8FOjavq0ifwSC6DIYzfwOV5WFlrM0kwsMR990h2qwgpy9bO3C4ik90kqIqlVwMd6moTgdG9JrHyktUm9fyto8vEgjIUHxRAznNxSfSS9PBpQaEzMkR4AeIAlcAVG5hoRGQC/s6IMUhrARhjyTvTqqc0lHti89KpET7PvcB01hgPeXo28NiUc1EhmrY+Vld2y2fcyE18kPTNBbGAl2U2rYHDN5s0AuQRj1W+3hFqNt6hF09WzsMTHkxnTImuJNXuQILNFg3jmIKLTWVbuVadOEY4tFbPBUQba1CKg6UxEyeBdrZfQXgFXs03qoiACDM1VbawAZg1Fzu7exTPh+KD48kVqBYFku8MdjVRdtgnI9DFoBfVj+y6KzZLwavnrCANZmhB3t0geqX7oD1RS1f2jBDfndGOMJK07rco6306JIO6gzgHBjsOdsl1hlvN5cxQvExKOGplgX/WIirF8wyEBJLetHmlm0FBHCga+e+s1j/2Hp7NBVuvlO9VvM9S2l4qpxVho4azymV6ZSGqBTYAqcPoGY7ilYByjMulSW4YlwAAA=",
+      "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_SLS_AMG",
       "seller": {
-        "id": 1,
-        "name": "omar edin",
-        "phone": "+254799009037",
-        "email": "Omaredin740@gmail.com",
-        "location": "Nairobi, Kenya"
+        "name": "Bob Johnson",
+        "contact": "0765435678"
       }
-      
-    }
-  ],
-  "chats": [
+    },
     {
-      "id": 1,
-      "carId": 3,
-      "buyer": "ali adan",
-      "sellerId": 3,
-      "messages": [
-        {
-          "from": "buyer",
-          "text": "Hi, is the Nissan Note still available?",
-          "timestamp": "2025-10-22T10:30:00Z"
-        },
-        {
-          "from": "seller",
-          "text": "Yes, it’s still available!",
-          "timestamp": "2025-10-22T10:32:00Z"
-        }
-      ]
+      "id": "4",
+      "brand": "Mercedes-AMG",
+      "model": "C63",
+      "price": 85000,
+      "year": 2023,
+      "condition": "New",
+      "description": "Sedan with AMG performance and hybrid tech.",
+      "image_url": "https://th.bing.com/th/id/OIP.GFo1nf5EY453YSlRUJnIhgHaE6?w=265&h=180&c=7&r=0&o=7&cb=12&dpr=1.1&pid=1.7&rm=3",
+      "source": "https://carbuzz.com/cars/mercedes-benz/amg-c63-coupe/2023/photos-exterior/",
+      "seller": {
+        "name": "Alice Brown",
+        "contact": "0789654323"
+      }
+    },
+    {
+      "id": "5",
+      "brand": "Mercedes-AMG",
+      "model": "GT 63 S",
+      "price": 180000,
+      "year": 2023,
+      "condition": "New",
+      "description": "4-door coupe with V8 twin-turbo engine.",
+      "image_url": "https://th.bing.com/th/id/OIP.EtTF97L-_8iNtc36swIfwwHaD8?w=301&h=180&c=7&r=0&o=7&cb=12&dpr=1.1&pid=1.7&rm=3",
+      "source": "https://carbuzz.com/cars/mercedes-benz/amg-gt-63-se/2026/photos-exterior/",
+      "seller": {
+        "name": "Charlie Wilson",
+        "contact": "0754637890"
+      }
+    },
+    {
+      "id": "6",
+      "brand": "Porsche",
+      "model": "Taycan Turbo S",
+      "price": 190000,
+      "year": 2023,
+      "condition": "New",
+      "description": "Electric sports car with incredible acceleration.",
+      "image_url": "https://th.bing.com/th?id=OIF.JIFDB%2frmnPVEpyDYseGe3g&w=245&h=180&c=7&r=0&o=7&cb=12&dpr=1.1&pid=1.7&rm=3",
+      "source": "https://carbuzz.com/cars/mercedes-benz/amg-gt-63-se/2026/photos-exterior/",
+      "seller": {
+        "name": "Diana Lee",
+        "contact": "0734567289"
+      }
+    },
+    {
+      "id": "7",
+      "brand": "Porsche",
+      "model": "911 Turbo S",
+      "price": 220000,
+      "year": 2023,
+      "condition": "New",
+      "description": "Legendary sports car with turbocharged flat-6.",
+      "image_url": "data:image/webp;base64,UklGRnwsAABXRUJQVlA4IHAsAABwrgCdASplAcgAPp1EnEolo6KkpvR9ULATiWNs9siSAjLDh608u4r/dScDyo/H8y/4zva+mHmi+r/+o9Gl6/3l78ysXHUbQbvT/TeCH9j7aP9731/LvURwx/4fcjbH/vfQX97PwvqeTd/0ijhyuPSfYG/TPrL/7vm0/Y/+F6WfXO/db2Sf3AOdC5f+viRjNfTdX+T7eu/tnTMKjnAAjVdLHnz7rxMPOftuHcl3BiRaXuZzmevSiKBcwMbI+QZEqloFuiS+EC/Fip5cJYZRe5zRsCrt3XY6l+4YbcObNdWpZVez5knfQfVD57CR/46vCrhk65G+6dssqzFk2GFtfdGwPiZ//vVc5u76D+QJLZwV1ynC3v/Im/GesFusd/2Ciy0cDbcUFj/Ms7ZptZWcHtaA0+7mdEIr106jdlTmUIv5LtXnvN5jCuFuiS550aZjQNjUOpEJOhLA1mXF1bBwmYd2XIdXcurrafUjQIhTrCrqTrLg5ZDdJM6kRDRBcMxUcwntbx3LpRYoyAbuxwTGTHREnQNNI852bF3du5t1tO24J4qepWJX+IeKye3Sp+YfAJOdRyWxRV0shNg3N3sSDbfcsdg0dfNnLtYcsX2qhx3/nbsy3vpjJIvXK0XI9FIp86MWqyQihnlBL0061pv/BjN4PrOdbjdmmD8SwNSHYLS+HZZ0nd+raiT02xfeRDoyOvjQDjZIAYDcqivWheBDr12PNFIAfYKi6CBpeIhS81/CMsaTrTBRutrT+Q8/4rC7iz+6yv1Mc5QWEb6smKyKB1gBOfuhiVYUfoQKOgzqXstmrQCPCObecmFj0f+9o/6xdFd7uA8GjvKSf0ppulgRCevGt4M28sCdo4x+KJURDmMQWFJyJDA82vL1NbjxvL9m7aW9u73paTFkcnFnHB3bX3nPAZq3cD8L64wp3rYiTeuoSFobypzu2djYVvYtXKiJ3yHIuF+XR8BfApsxmQLkh09Hv55FzPRzduBu7TMGnfxKwkDhTKdunvRnLqkQ3rs1D/6Pdt3WBE56Ola2movoEXMHic0A5DCKVTfpfUwKduvuI57jqE+pnCUiHIuII4dUO+dcH8yYZc4PeEJ9ONi2fpOKfpnWx+7Dq97clD690O8+UgPYumGJC2y0zmP9s6WtZgrnBhKSAJst+1YVMJLB39dh/h0XojBAejlqfO28Jb5+KhVYM0zJlICNeFdBW35WxDUKdpTUgp4QmvH6UwTx3GZBaftOgCa+SQPfT/QSrkJ3v5sWlDob5suARCdc4IRSDSmIV9jAmcVIe0ATgbq50IwXrmsWrG+b9CiO1t7wV7OCHDI2r/7ffVPvuPi85seH1qtBw3967yfJuYFPyL8PlKXjtP0s2nEOlCzbF896aleVI5CnPcZlmpbFcWeDMzoKPoBVtSSCmDpLEfZ5X016jKYrRZqenCxpq2G1gAeNWaX75M9276GF/7OMtfFB62KuA09UY82ru7xIx/pYXwYx69WJH+c0YHp42xaP//zzg7OCTG21s03oGBkMCnBq0x4b6YJLz+XU1818r2mFDG1xdAIuwR5ftRHDtm0P6RR8A12yNjDyuWQZjFmpDH4MTQ+CcQ4F1YB/phCFQBtZ5vd3wmHgCzWfB8W3qLsAOLCQHf9VEh3aPGkVo2mHTdI3m5HI/S4T0tH6y1j6/1B1ta3ds7ZU35WBwwLUkqc6ELCqWOzbvgr5/DMabyLRKhfVaSuh+knWy10Kl5Z1Fske1G8QQ4sET6K1BRuXkP1ENOVWjxXl4jEkfiHlXiTnqn4+/8ZW4NuQn4enSNbOpeKFsdNl5+gJV7w3YAMIZ9g3N+FpB41IZvnsd3v6guFaocEOsq1yZMk3Hj4CdmZYAxkq6YAA/vuK2ycVAkN5+rwM70WMzwDto5/3hYf2qxAJWRr5kfvA6Pgxg0sSf2tb4SWJTb+ulp8MbAc5GeYJRLLdccJ52tqdgy86Po6Kh6KzrAt1tGVDsFi4ffKxnng3HOg7LLfEUaWkAGH8gudyd143IFd5xesmRpLX10qHOBqOFnmAPEWkgnlTiivUULtMAptuUjf5C/LUUASLKyTzBETBL/BYVtJ9wS29f5NI0W8KO5f5jAwfpPT7rX6GrJMKBeJrMef7vsFI4W0iPsu5urcMwYvdw+WQKAfAxNhXfzk0uQawZsAQ7zv2y1ltQZg46EZ+FugWUC9SeQjkVG+0xCRBe3pfN4UBoSm6tNayzEMfweOSWGjS8cxTTk8Og/whpIRLDaRYPDD+1oV/aQnOkdGqxVVpYphpzDm7LR5G3wvMG7+atioPO7Isowk+nb30IjCqxy3KYYQe74+hW/GfntxPBQCN31Rjusr974xrYyRedczd+3dkQKnR6acAH6pVNWopZMtdMuyq640MvYr3TDF8vR6Zlwf1UMjQtk9hD8Y+DIBA6aRQZwcWQJvSNatEF5Tunt08+teXVHX6O8GwBz9a8kpdnqVfsnkomI0zy1ynfmo0CkunXJquW+9I63TGaHRhBoGWMtfrMdm3F+sWjymda4w6RgbEE1T6vATwaKpkKb/4mYhWbdFQKK8N9cQ7843Gjx+v6wFsl2ibYDbmVQ8uGDdkVEYMcX/1W3MocIpI4ene29Zr9qDgQhrL8ONE5afvhW+zBCqsFXzLuBDcxH56qjawVo09+wm3CrkaKo+8r1NMO7BnlDCQPOW7AhoVIWUJT/GwyK/kWxzgrGyR/KtCQ5dX/JNsRuNDXaLYXEOyjpZIeWeEjZ/aa+fFuIUn062xMKnr5U0S71OOeyEuAbkI4528i1exnZti9jKV3RZgGy6dyN9VWjSxBlOcRMV5WvMKPg36lNhDNYj7CFq6kIPRVcz06GJX6SFeDWPJfh9T2DlHfY08ISfsmOaJDtWi96Dn43KVc/o8mGMQ3w5+li27ZYOBM1fF9V2AgQ0YNXke6CTgrRaghM9SJcAAHbhjGxasciVqmfri1PM0VN1ayWhV8yhYfaDIMHImOqOukRMVTsGuuXyQVGNnEfIKqpErJwiJG5wY4MHQgbdRDbxOpxrsSxE7dLNcTcQ27avvRPdN/rH3EcV1qnhzbmw18JaAFB4WBzfcnZiex2LhaaYwh3hm5SHuNaxMMAWeTOQrepgV/M/2hcwblMSoLVafd37/qJZJU1+z4eweqX6KpRWN38RALnkhdUBKFxfQAW5I6ef4g4CB5RJV4SGXP8sjPRXAiJFB//SisxeeE1V8nCV6+Uc9aq0/vco0UoKbANBmruXzACrkhgCUtJELFnHI/7HcFYz9uiIyZISYtaInIbxLb2zqcsTTRm8+k3f4Ss0XZvEzwiTbJ4Bm1JE7eRaFpV6OMm6s4YXv+pGdT3ht5zSc1EdWbiq8rQQ98vO00cSMuCO2i1aQMtV5DGkPkmZdRgmaOLgtmyTM1xTCOVubEJ7mHsgXn7fqKJZGNyU2k+ZbMQvjcGPzPFS/GM6HycLVKSRzJTxecnuxrTDy6mM7lusHLPtpHDnx+yUbjFvoHUUXpe+LaEHRTlfeuXtNfGqrZ/cTMBMslQgSdl2Cbp05WaXhhm4F7JCqUhcuTTz9ikuGOqwD8ynfsoIfuBkp7+bcbbjyU173YUw2PW3tv3G5q66JGohypdPAcTK5rsJ3RJOjHh1XnhoGzd1peQM/QlJ6CCaCfkEkcqhuUVkyQv+ydvIYC5+bSlIvxEpO3+orkm4/ZMm1YnRWzrLbo+2Nu6jkEzK2KFYwMenTkz5G1kgbn82uZqej7G3Wr7udkoUkdFUwP//j7x1uCDT7Si2xejI2TgGWObWeURAf9I5Pnn4NrUcn1zfnvVsunPDnyNxQgK4UtCwAllF7mMeM3Os7qmF5e3DNAa0y8ewZ0aUH6eBXh90djweiXhQ+dn7HJZfzex97DdWfoIgADFLsWCHfbIH9bw126Ens14BCM5pSrNl6w/DiZvaRRzhoiTFQwilyREidXaRcnZMe8bXin+pa8ggSfm898K56rGvXhNz8KXfFqYF0O6XHdmQaqD4b9hX/TQevzLiHyQuSO49NMk2jzaVFpDJFkbFtcGLye0ugJlahEAgRszpwu4592QugmtU/bGtVpOfVHyEhYPdwEJirCmg7iY51mLm/sTYRBKbKLHAExX66wdtjy05ciuBVhPH0VdfvVZvMwiVZ4EFktbL6bTqn+cTc1ZqqpiUumEQ2ck9U+lQyUjAKcLd2bf9psUMwg0N/t0taDF+ruUmdtBRm50RIDnkGA4oY08ZSOCaVK3RhFT/xm0bNjhV9zK4GgR4fU6enTrubXmkBncYpHJscHti1fVCeWSuhilTahGmEK0dxX4bThfBbpFm+lH0JiSPUtEmyR51qk7vtlSAR3UDRxIadJeGYeCycG2ryzeRO3OEQgwmHHSiLZJ0eoSu9TgNxVi9fJCbUvK3i/mFfG+xTP3rRY3n2QT72ggHVBk2QKdivJ5YXL94hg7H4J+ShseOOJ8tJAhn3JM4oKBBnSxgShONQKBYeLQ7JZR5CFuk4V//+1mFw2KkfTLwxJv4YxlPJOY5IrrGL6bROxUJnWH/wlh5j7moUN9iudcXbryEZYu9dq3uP90iukCpadP4oK/DpuQDE8lWTEEdol1vCKNPbkU5BJHCutMLaYVWtyb2jJS6R3IbO2cfer7Okp6rOb0gNWAOmzrdjqvIzsxWHmIQ8n8WcFdMMZgiL/7giFA7tFGwe6MPnn9CyY754dSls5pmJgNrFMDP9q3X6FTrra2Vjzd/ASJts9SVjHhFCcxMWPhyzSxmxdiE7qhHDrCeoCkBXiFNyZQn1muo/o3jGq+vSDUJGJQgnR/89aSylbXONqan+A5Y1wqmeYPDzZB5drYhJeuYQdDPUTmHB6N+7lg4E7CchdUV85D0x01VQUPZf/3EEv5Hsfto4oMs3Sqh/YNAYzyDOkQroK9VLc25HpPQjMUAGkm535q5bzJIX2WS1Nstzyna3rX3U/00vDEsxPr6BuFJyyUDGGBINozuy5NRmUVHf62psk2HCOmc0xZHrApnlhfZis3uSszhPbFsyQf6JTRFGvv13ZfBvC8/Nuh+m0RWZQig0GOT3AFtEdntAnyh6vJlKsiLyHT1VrdCF2oxHafko4JHyaV5hzIQFcd9NsUsT2oJG0GIN/YG2gmQBXDMvCW2h6eHPKk5PqP4ihr917F3bh92PZGwVA0oahxYfKtwvGFSeVeTV/ndPjk13vs048qW53br2oStiaNAr5J3xYNKz8r5FyT2ukNo386N5dWg+SXvbmTrFKbae+ir3dRkpcXPX+g4vK+r9snGfMBBqlNazjHl2ezOz1grl5+K0CCAdy/bxHhP66TbYnd+kMp7T0aCK6d+tAcxjTXjOBAhfFkv748IMs1sRVjw3w8TFFX0nkkv7K996HsgtAM1EDXYMpB7aN40z0M/lrTC4+EiW46J2IcIo1srnpCyCPzWPngWTnsJoSZmH/MiW3Gmy79WQMiIIQAS9xzeJzMDBlvqIcyxeqxT6Bw88ZhI4M9XOYIa4DRn1PAP/E35Fh0rWVAaIpy2NAO3OQtjuNqCuXdkIxs/bu7L5d4fjrk4oi/sdGN7+gGvQz5Dl7mb2iJ6Q5Yq5BXyot8C0KmM8A/qwJC7hhvZAiiycDrojtp8G5fDvAOUtOYZDNi39uE0ejp9GBW8qOURE6YWLorPmrA7HWXjZgkNK178XU8iz0BMICgvafvWzk9YXaPJUA/574u8f8lLwUiPjqTFYrlLMzNoxjjvxMo4eaaY9cWzRMRsPweQiH7Z7GCd4ZFv7VUMkOG+3hFvTXo8lF9uPbwRITVSQwDesu8qsXNNqlrx1+boe2T2MZIT5GfkYPngf4t7+eEktgFHqtD1ZsxlmgheZY60+xsx7EPpi4nbR/m3l4Yt3B2jmXfwGfainwRnBA30bzz/deY74N0VcCxcHRuQNqvZR8Av0PJJV7G73CsHNsSzasU3nUFh2LJ+0KPTM4b/ATadZYM16GoEGr2ILF8Y6iBAe11/GvhzSVX2MuFsUBMb1WqorzykBY4XOxXu+k1LEjuPzdl6XBB6WpZjzsylxH3U8OlqBRQDD8mXrh0UPMO5BpLU6HAtdH3NvUjozdoeQVDJUyic6Xxj1S+99GDpPTN5xxvgbAZ8fnPgQS+B3uJ3O16ptt5pPnUrZX+n+pP59cbi0fiEY1z/pIPa/dmqW+fgTu5LxWkt5SldE3DTgSWEhe86qfi+KR/hwRsIC2DuOBdCbPPrHThCTs5wArbvTBtX2RPQFOjVMqsXhllGHUJ2IcxGBXKzxX+AQ4153lpIyZ0QwMp7TY1NAkNmXySEGtV+LQmtqas5IFyt9NZN83vDbHeHkagwVs8b8FBtN/WbaD1qfA7fzVEOWJ1m15k6UhUdHgmVY/bWqh83EbpF0UQl7QmQhVLo2Z/w9ubGtLCKOqlh/9xIPSmeVU41Qa8jVDpxKxsM2SB+3P1Dh2wHvpZCF6gLLdA8a+t+JPz6KPAgZ0heFo9fcSUDXdHIM4W+VtVSfEAmD/oTomtAR2qZe4wZ09Ml1wGfffYf7CfAvvhcY7s7Lwg43yGM4RsurySuGJOrcA8MBKTEFWw72hAjtzjiHdRsDaD+1HNfjSlwGg1pUjumTKvvpsd8hOoCMiYltgGbJHbzhValmpgeIdNAaDCRm/XPWs7N1kmaPISHJJpVFfiWMUvY5yob9JiBFs4O7fW9CjQcRQOyAT7WCD0IIKXTvxJNl8hIOrlUpkKM2DgWSlLVL0CB8Qc+bixTkWuszDhKr3PiHaESCJzWnaXehnEENzEor0a9v4JVdxiGHgphdrg6pYwonfisG5wewHFEgsErcA9fiuu8HEdn9UVZ5wZfDI72HHpx4PJ53/hXSGT83zI9i48R77ieQc/bilC7/ivvEdOL5hBaZStan5oCQFe2HQvM7YF3DDbHlhcx6KBIHhkMzlWSjNjxD0+P5/Aeh65bIEpGD5AHyfVs++EZsi/PV8paDJ5aSdP8E4JDP8h2/s7YGjUiVhfIN3Bt0jSFINDyKY5LcZxztAzeekfHCFLUNopwP32KoB4bCjkS52H65Kk8LgNvFbfuQ8ERkPXxFjkhyFavY7hFSftbtnZIjxjFSZF5wSxtKF16nXYTiCmuePuHw8Agym02ApjWLBPteqIH2EpFdajzBYsjbRFp3pyM40V0mljrwcUN18CS7wXE3JJ9kAtBi9odjQ+ZyuyQlWF4OC1+8lfrzUKwyRlax95aLh0k0aqEa6/FmIiJqvF9P0XLA6MBzJZJeFa1MExaBpWdAmE2NZveNI0wiULA98PQU7AmN/rfrseumxi822YGmgH2xKFTKmAkChzxDCylpmv9yfJeo46rxNiB5W+U55EPojR3It1nyCmQScz7R/E2+vV9pyxoFhJu7B2vjLRdyw11xRSwJZDMHQN9bkctqpFx11x2d+aXQhpozkZ6ikxQRNJMGABNzS6Ss6c5fsVWG3KQ1tkFAnAARTZ1XiSlkrDkJ3WaXXzHfaFr7fnOoVoSQ0PRe1Gjq3uTGYj/vPG87ymH7ISfMtcv8mHBhorBN8SyIu6Ba8LXg5+mgFo44NBUde+JOetFNdJtXAUI2n9KPLID136AeKPQi6YclsrLRVlls2r+2cvdEcR+leMx5jfp7BH6fdLMxSItI2LiQ/iaxila7l22KqFYRqy36J8r2Tm8fzWrGDqePtBP/bMh0Z8tP8nmV6UMr7J8h9dKpS5MtcnOlMlLqrL7SbK6Vzt1HgbnsQRJQVL/epGZBCNxGJBd8+gCXU6SrNj7HOJoyyVYawdTElrlk0vgpfNpnTSw4/yXF8Xw7NJPrPJESZpP64JPzfWNDOKx4YZVjqkeEaiFQtoDlDzy77sAb5tuoT0PrhXGLLrN8LIwfEtEFIpGcW0w0nZrTqhqllVvHSZ5rYx7mobxIWmC21fKy9GG5O96V6ftnI/9TX78JJuRN2CoNi9q5ausJ1MxnwnNrGVr4YpUarIICaN6Iydxy1GQEvi8+8jLpztKVVEQ5wn1KM8XSWW0IYpCIsX4LZU11/nIv6bHZhCgNYdXBzYQQAc37PzTr0DDkM0DdTg7ch4X4IPwtLFyX2AEu0ASupgLsgMZrW4H4OOrc/jnFYT6igJHfC+P00/tVzO9Wll59iTcGDueEMX6fdgPq87KGrRQcgpLFe+Gi9Twj+3duIvlMPYG5x5mNBioFb23QGLPlm6yhkHKGukPvz5uGb+vb6dFIZyZ/T5hVrJp694W4Vn0C91cMindyxQF0W7IKlJKNxfN/zRFn3XGzPLBe6uqVsu33lWrP2BUn5zgUwACs9uCep+ldpdgZb5iwMYk3e8c17W/aoVLoGR3E0bQmZJ8sqQ1Grz7GC/TnvbL415s5U3FGYfIGkXcGm140YxTH2yIUSiXEf9CGK6NWwL+HI3SHRLcOyN+ej8iKmcNqghZ2SohcCBEXbeamScxGM/ykzp0W/6Tq1S+yJa46cp+kr+8bRXKmj31ci90ujIMhZ5jCKj2i89XmNCb9OEBJYygSwJK3pjpvrJ5H2k+XnsaSgdNoyH4PCkrGOHEx/QTf3kn9OC/qUEJ1NA5zssmcviPT/wFeBKoYBFp8zebXKhaZ34/Ckh6zxiCzslN33vc4aANDfhP7bWQ3dyU/QjNsxUB5GZJSPGjfgdiVGI93k5+eYOh/7DmL+ItRCflDJOocZyF4KyT3zDtb5Qtx5uDCheu7MuNuusBrBEF6mrKtB/LesCvUTC+ShOOj6eGutstDgNPpIZnSCt+/o41brdL2ZpEcTsfcxHeT8loP4EmUf3Qc4rPLvesd99WoEFeNFPD3BeFPtHR+C4j8MLjy6/sYPs7YM9aZrZ24B3eCjbxb0MK53qc8BFgszLsbnWlHRfHhH3YXqletr2S1kbVqteIiictpSLNCdRaujsk4XIZNJC+9wv/o5Gs4UnlPoUlPKx2bzlJZ6ZGNcSyyn1I8aEaJFataTGG2vj8LSLb+wF8z7xUdSCrhys8IdFMgy+RycgvFbbCfIDUEGrg7gqAinoZarHtVfyAVOldhk3Wn6Oj2BbV40cMtAaFLR7rTYqA16GSGgxXupZKSO3phTdDPM0zGgDz24lLqNrgvD8/S6M5QsxjQywkm/oNp9Mcf9si7kUkeOf2eIC2WOWoQ7a0hUaREMr3nF8ffxkuBQYGK+JuoudcJGCgoM3mTbsxvKqHK0MA7Op15IqlDHqnWVTTkiNt9j0Pzo8bMKSj5qp5eRGsj2/6KCNyBa9HsR52SdmCE1rYjoHpaAAeFDAGawQnwm6N23ti4vFAEzWhaQptfSh7JdmhQD5HImXdQZzjqLq8++Ad+RJ06W3IY7ywtfwUjItMoRridCshhSZR6xnPfw7ctGdWcdYQQB3vTlBK6ionkvg/ay3MJqsyqYksEtfpdTll9y2H0DHvef8e1WukIE75jX23evAecS1pk4IyQJRLlRwv6iDAZa20YUU5QLaofVOgj8I4tvowDn4jlvtOM8P8SXwZr4XiE/bxUJE/lM33S3F2/OZJPtYPavPwXac8+EyLPNigo8BUBJyiWVLYUttm4a4ZwFZQaCzV8nP6aQbRbxnxLbu5Ub2Hi4X6CBYu/Lb1t332D7kM1gRWqnuVdX1WzLsHIlzaMo1W5BSBdCIk17EQob8lFxvv94GncYUVBBH0+o4ZoUuSf6M5fIBWRPAQeltUr453MgRM7hlKRRER6ucm0RSNUd0Q59PfxFwj6gYnXtaDKum0W9ZTSWFqdl/dVWKN3wiKt7bsGW4QgfCVZIiIj8U59m3gdHtoyvB665INU6Pv9k5nm9xnKsvgAOwCfwyDBIf6T9QSrRAT1XrnMMwCIXq6t00rYMLebAcc0VL6P51ooOqC5QYVPwoA9Bj/aK966Xc2bAamkZ9LGMtNJ3MKtBl+bYMmtegpL7Zkp6cah9aJ5M7krpkBUmXHVVSVl2amwn07BlB4mmkBy4USbvPG56j1oOVsF9Gpf3ofUqY6xPNfGmA2CcqMTFEk+lbpy1ZgqYZhhMR/MpumXT0s682tmLPKYpX8hRX+P0hKJjUOThEIHtGBx73/IQycFn0M9BcpayjpayiDI1pyz+VZfkhThvJoMUryxTozEG4w/EvJoYNWJd69HnLufTd3M9U3zj0N15TCbNp+YzH6RZOPpu3A10gUCAlO9eiLF3PtwJeq/+91GKIe29aYv17/ZT0y0Jm2/SfoohcRlczZUh9ml9WY7ThKCZ650rv4H466SP0K67rb06NzG6IrgVQjY87ZIUm6AZ3SgAEFJTau0clFWkNgDPfE43PQ3nIBzD1xE2U53NdgV112HENMBwUdcsTiMvLzc/bYwcfIHHcz49XRLB5U7zvMFHAToBkrMKWRIUil/WAJgD8lPlk4fz70Mc5JQIKXsDteKxmhrFgoA7aRMQuFHmcrtxEsMqGpN9S5jEHD5IaBlK7BAX3zKTnMRTEPvfC4ELI3ZI/lopjVy/bDw9TtDd7YPorlTRES0DMDehHklphBYjfSFL7O7JbUMRE5V0HkOzjAe1lJGuGXa61RJq0g+gHf/uvLNtStw6gdGbBV2mYOVZNCsX8gSt4l7EZFB0HZFStHZdjrJ7gZLdlM6ZGRAE06JgxzTBztIwy9uNC8ws8J7GcYFGYj2WH3caZk+nenUdu0opViF5D+iegwrXLrKUh7N1C22GaT/rgyk/ZKvupIdN3uCMj8iN7TWrTo4fw+sUwmna5TkHzO7PQvrZg+13Eu/uIjQANA1H2vMXyNjEuDcd0zB3kuUGplPXIcDfdyPWxdMldyVJ3ofqz9k6IgDM270WaYc4YrjKc9wQL/rkTHEz0JOJeFON44vPtAjeG+9esUnbDD6vrD7sNBKrH58cxqK2F61+d2ZLeR5Apkc9U8qKbW+UDeqnX/oqjao+3OxmlwKLMOCxIGKlRoEhQYdcHtgLU2FsMdkD324GpZM2Y3LxLwyZFaJ5tXDnT4sxcwUKhprwE1lyaKEuH0jgozv8ICDgPldVpTbAkoa35UOXDos7ome86P44WWJBkxQDlgRwaYSBTH+L/zI3jbQy3JNU8ebqsKow0rQG1uwtRcVa198BhVhyxNaBb8SyCwswoDSsllj/EUZlFr2nuQ23qe095n8slbjf+69duMgHXlm20K5zV/8Cs7TpCh8EOUkYL+hxrakEgZl4BIEVKKmEuKL1cQfPYQL70QtxeWuFFreWMPAWTxOPSBmDcndPplAizxJE+Cy6Z3Etf/taswaZOGjqPrgdICXaYK22czLmRcWaT7DfNmF5FmxgX752fHORvc4+7x2FNmjrY/8A+3W0cNPQz4oGXd1LpIXYjC1iHSmy7OXAEfkszSINYt/3AAwSPkYZyEcu74A/npr7u44M5KHfnddDKe4uyslv8e89ByCnw8nEdS9fBxQnxAWJXy2lpsFWOrMG8/gjv0/dYnzlKGT8IKQQ2d6ajMcE3d84/OxK9PfHloQbPmP6+LoAH4Hh7IZ44itkZo0IJ9PgCLm8IZ9dUmqn1GovuqmYN2MW5g1CdqpTbysrKVvgmOUXbCGMiiCVMO3J6UoELxTaF8TDcV5LIiLAaiUy/IaIrDvyZoujgIViUswaIVRwhPxsPNGkjmauCFm2P71o0z32BOgmzO9qVXAw5tH/Pb6aFQBOzdM6+JHtaAOzwbLZkfRwTNhUbG+4FAuCXO5mYRBSDrbSUSsT/yV80F/AnIWP4/KFJHvUXAxEdQtohhTRWVFpsXLTAAD2JImgU5XSqy7gc0g8QNevi/EE2OOa3UpQA03UDGHImEmZFqnL1P+IA4JcybIQyfp37CIz3a1788YvUQBgx+HzBbHFPfFzmcTVnh1T/JIZ4KKEi80Q0CW004mUgzzx03hq7MXNdGaaSe9gMAp8oZuw9OlOmpOY+WR2Du6S2Ap2H4NJnteOKb/HeLuEaWa1g6A3buBqehaoSg7/IBSVcRoF8qFC3yiLcRtCMoSRw1s69jcaL+DfE/u8nuez6VO1zIaoTuwf887NDbagyuqp4OFgOUkzbEevin5WzykH3r3w9XmlD1wRl/dOo4WHDcHNzJMnguX4jnIfF7hY6WQhzAtsn0Q5KlzJhsMHsSaPb+L8bc6J97DWB0li15mIr7fsudQ1rBF6ZBt/n//OFzKo5tlPr1lEb66ufG14+dzUBpndnx1wJc1BGuOpOTvH9wo3cwbRGP+HQwGBtO7iBsyU3LDgu0t/eMKUfEyV6Y/ThwDrLv91/HwmvMXifR6h0FEJuMA21sA5KYCqN6KfbMNUR+FsP2+mE+R3E4ia/HUtjdNzTvHGTAz2buJUe9xkPYD93WWc63MLByay8VJVvclvGS7eQe4iTn1Rnv2OMu44Q5ZQYyPMYS0/mmR1whwRfmz7fBK2abfJKmgGN58DMWkSYiq4Q+CQRIZUee745zHBIz4pXth/TEsMnXoDLQ5IyuDWzwgbybLIvVzU4DqeCcEb4FXtcTnjigaOC1TuaJKxYAYa8p+V3tyBbvRR4VxfcvAjh7LvoQZM/DNSRCCh/qNVrhZp4XWwyA5a4oVszKdaE4Re/lnL6/wDRgsJTdwINqVQNYvBD3UFrUQL4877HIv4yGPKNz0yTnz3MCzALAtQgaJ3hSxLYs4PL6t4O+hWDTNW2tLWBJDzFEeVl9wcu1HAteipyLNeVFJm8CVpjwGNZawSQLaZznrHEqYTw/JfgatPdmtYn9Te5GzK8e/irQ2eF54KABCGublBiMANolcDjr9AK8GwzlBqFveS9wWRN3bU9dhrBcYz+Fa1qppZdzN1x5soF/N0YbzNjYYTd2gtmdYmogy3yQFMj+StAEaSieZGd5DGAhyTo+ODFv3HWCJ8ius74HKhUm0PsnNNwiCzER5CxFWfgsV70rT5jDOxjkKhUcFffcl0q7jds/IYh6kcBD4kVPUeAoNAW7/bNcWvPVqSmWKeoAeFoultpmSHou+aUf2RLLTKuEvenGfVwhtk0bRBxOT1DnvtmljuPW/257VVTRBG6408gCB20wFrz/yDZFeo8qPLd05OdK4AnYOA4ymf/+q7tgkiyXxNmyTL1sjOl5vog3TnO+/hDE8TwC85ZWC99NMnyJ+R2YMCVBKDulKtVJIKaYUl1io7AM+NMHP2KR1nIf1ERPLMBZAyuu3CH1Myk1X1QvgEHJg44fFDtYpRX4xcSv1pgbY+UFWJe9N+c7/U9QYrSi2VF0r4Ya+fwVnaAKfrMHHFe1ac8GLyH5nQFPIRgUSUJlxw0xHY/Z+G+x963MvKLDurgvwqF/56Qx1pmJRSu+6iZZPgVr+yrORgTyXSe91ODfEDNw3HkPOLxTPke17v3FvRm6eIxz2wtlbTA7QoUUGaQdwVGrX0i4esgZhOotWeASl3qQZt+knfaKLM/gxGr/ACcAeUBVUSLrgUl21xGRdY27iELCndMJI+RiafYMM7qGIPIuH06ly6tU+PJK04lcgsc89EywdqBHL0WfI1BajMS7Rew31HBMQjiNS1ObaXxQH3Umfqb7JZy7Sb2i6z6/siyhnmTQjat1fGc921bjAmTZWjaXZuUdhiaELfmqj2M9doxUtbCIE2bMw4U++BXC+h7uCB7RHIjXPuCDz/XCxKEraVXEgnyoCrgRixZQVGgGSGRheG9NzQjo97nMIlllXYro/GXIiVOCf0rHdA7o48BmrK0Uj/xzXlGMbk0O0/cIr3ZNb5ibl3B4//lde8HQ0UC/JCdAnChlN7PyhV36LK/4Ti1T6xL1fv3bqVBWRzbSTZeVtWsoFDvbjNyir9bNAub8GPqaGfN9NMbwDF2fwBx+1lDghR+NtyIjjxV+WFFQfEAvwqJs/ToAV88Rw5M+lpFGetcuIzGmrYt3kOd+aG1qE/0YKIXEZGqG5b9HpQ0v5xReZu8U64M+/moKhacARcuvcCHF+QplYJiEIsGuNccaxJfH+bC4qkTiiQeIDdxti6vCIR1LXLubz322a9uT/VMMrZPRNKOZsLeUfCU+BowCruOb4cfAj4mzFTaXcOnLXFi2AOhWDKmIiP6pv3Zp5xS+Cit4PPvWG/pT2PACjiyVcxQBoCcxJAE4SmPibIoDsdumpeDxQ2v0jkBLcLU8lRURaW7U/XuRFV0G6XlcMe+en+zqW5vH1kcVRHQhrkJcezEdXgsNOJ97WvwuiS/iRuvcxsG66yStuZVXAm1GvC6Te97mIJKT5/fLXLX8dF2NVo0bdxqun5JebKGldUT2sj3ujGaquzUSIG8ARDtkUJ16eCqButYygsUhD0tvGE6S5NQBRJeci3Y8KPEHbFOkePLgzihi3LCxXdTVxdRPYpDyD6NDtQ0Yx44vBtE5I17ztyLQ5AQijly0UDRr8NExgtq7Amm40N5lfoRggelADMqgK0ZVRXH82Mn/ArJKmc0YU5HRnMOyVpmV1c7L0zYw8iYBa9CLZntfYZSkPr3duJh6sT4KrQ1Wk3TUOREcCqXS48aY7cDzgwcC+AJSQ+dpeV0ReF4pz7B4cQusWcO3S/9YNZ63oX8sJb3nOBBy49SIIXEAhg2DON3gOsLh2MeRQe1Fffvt2i5qucKQVXpjTk948FOpRwOaowNdODoeaWVPDdKplC1a3uUbJByTPu0EYQRQ7Ni4OjFWU9kMP4KZZhvflSN0zdRlytUcuvsP+VQTE5oAVrnBnqc2pC9DYTLE/75tCwmVjMMrShVwNR0ukKqYicbpnwQNL3aqcCNeBb/cbGCGh/OgKBqu15f+Ar72xMmk4cg9RjEbI7IFJoo7qzZuLq8+5BBxF5f1yXKbCltq3My2MoBKJdcwXL+L3sJNeQNpgAGsV/mc4HvKl3AN6qNbiUaCCa2YwZtXVaoT+msKLbnMnXDHuYEd6jQBeV6MAUDVIOvGz3PRIYEYWYGP2xjfG7YU6oxt8p3g5LJn4mhkACLGU9zy603qPm6ps7xMvTltXqmOBwbHhTUrWVTLRCmuykoc862pWLQgM06FIMcUjAETlTZUh3AR1C1ZJBBkcAIU8wDQxf3XZKPX1NdVcvjis31cX9BO+XFuQoL8h5+U8QA5aTp6agOkKEf/EsUPxA9HA2AeyCoqfIejYfn8kepYn7VvfVGUhlZWTeNF+gjG3LeDN2REjgIynSqGvawAf1ks2YPO50QybbcPKMhUP1hotnJscbFKEv2kNYeiMDrKOzJvA43RAAAA=",
+      "source": "https://www.porsche.com/stories/mobility/new-porsche-911-turbo-s-need-to-know/",
+      "seller": {
+        "name": "Eve Garcia",
+        "contact": "0756473892"
+      }
+    },
+    {
+      "id": "8",
+      "brand": "Porsche",
+      "model": "Cayman GT4 RS",
+      "price": 140000,
+      "year": 2023,
+      "condition": "New",
+      "description": "Mid-engine sports car for track and road.",
+      "image_url": "https://th.bing.com/th/id/OIP.Eny6Vz5WNgkDk-u3gQlUFwHaEK?w=280&h=180&c=7&r=0&o=7&cb=12&dpr=1.1&pid=1.7&rm=3",
+      "source": "https://www.shutterstock.com/search/porsche-cayman-gt4-rs",
+      "seller": {
+        "name": "Frank Miller",
+        "contact": "0798765432"
+      }
+    },
+    {
+      "id": "9",
+      "brand": "Porsche",
+      "model": "718 Cayman GT4",
+      "price": 100000,
+      "year": 2023,
+      "condition": "New",
+      "description": "Boxer engine sports car with GT performance.",
+      "image_url": "https://th.bing.com/th/id/OIP.nEBfS5an3XemAIwWQyPiogHaEk?w=268&h=180&c=7&r=0&o=7&cb=12&dpr=1.1&pid=1.7&rm=3",
+      "source": "https://www.autoevolution.com/porsche/718-cayman-gt4/",
+      "seller": {
+        "name": "Grace Taylor",
+        "contact": "0786534678"
+      }
+    },
+    {
+      "id": "10",
+      "brand": "Porsche",
+      "model": "Taycan Turbo GT",
+      "price": 250000,
+      "year": 2023,
+      "condition": "New",
+      "description": "Top-tier electric performance with 4WD.",
+      "image_url": "data:image/webp;base64,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",
+      "source": "https://www.porsche.com/international/models/taycan/taycan-models/taycan-turbo-gt/",
+      "seller": {
+        "name": "Henry Davis",
+        "contact": "0712345678"
+      }
+    },
+    {
+      "id": "7472",
+      "brand": "Porsche 911",
+      "model": "gtr 3",
+      "price": 10000,
+      "year": 2020,
+      "condition": "Used",
+      "description": "Test car",
+      "image_url": "https://th.bing.com/th/id/OIP.qRW363Nyv12Hszdv8R52mgHaEK?w=268&h=180&c=7&r=0&o=7&cb=12&dpr=1.1&pid=1.7&rm=3",
+      "source": "https://example.com/test-car",
+      "seller": {
+        "name": "Test Seller",
+        "contact": "07567839867"
+      }
+    },
+    {
+      "id": "a82f",
+      "brand": "Test",
+      "model": "Car",
+      "price": 10000,
+      "year": 2020,
+      "condition": "Used",
+      "description": "Test car",
+      "image_url": "test.jpg",
+      "seller": {
+        "name": "Test Seller",
+        "contact": "123"
+      }
     }
   ]
 }
