@@ -187,7 +187,7 @@
       "year": 2020,
       "condition": "Used",
       "description": "Test car",
-      "image_url": "test.jpg",
+      "image_url": "https://cdn.motor1.com/images/mgl/8Z9xR/s1/2022-bmw-m5-cs.jpg",
       "seller": {
         "name": "Test Seller",
         "contact": "123"
